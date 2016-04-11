@@ -1,0 +1,23 @@
+using System;
+
+
+
+class Program
+{
+    static void Main()
+    {
+        byte number = byte.Parse(Console.ReadLine());
+        bool isPrime = (number % number == 0 && number % 1 == 0 && number<=100);
+
+        if (isPrime)
+        {
+            Console.WriteLine("true");
+
+        }
+        else
+        {
+            Console.WriteLine("false");
+        }
+    }
+}
+
